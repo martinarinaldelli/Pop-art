@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia del Pop Art - Vanguardia Artística</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Monoton&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-top">
+            <div class="logo">
+                <a href="index.html">POP ART</a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar...">
+                <button>Buscar</button>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="historia.html" class="nav-button">HISTORIA DEL POP ART</a>
+                    <div class="dropdown-content">
+                        <a href="epoca-50.html">Años 50</a>
+                        <a href="epoca-60.html">Años 60</a>
+                        <a href="epoca-70.html">Años 70</a>
+                    </div>
+                </li>
+                <li><a href="obras.html" class="nav-button">OBRAS</a></li>
+                <li><a href="repercusion.html" class="nav-button">REPERCUSIÓN</a></li>
+                <li><a href="experiencia-visual.html" class="nav-button">EXPERIENCIA VISUAL</a></li>
+                <li><a href="actualidad.html" class="nav-button">ACTUALIDAD</a></li>
+                <li><a href="contacto.html" class="nav-button">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Orígenes del movimiento -->
+        <section class="origenes" data-aos="fade-up">
+            <div class="origenes-texto">
+                <h2>Orígenes del movimiento</h2>
+                <p>El Pop Art emergió a mediados de la década de 1950 en Gran Bretaña y a finales de la misma década en Estados Unidos. Nació como una reacción contra el expresionismo abstracto, al que los artistas pop consideraban demasiado introspectivo y elitista. En su lugar, buscaron inspiración en la cultura de masas y la vida cotidiana, utilizando imágenes de la publicidad, los cómics, los productos de consumo y las celebridades.</p>
+                <p>El movimiento desafió las tradiciones de las bellas artes al incluir imágenes de la cultura popular y emplear técnicas de producción en masa, como la serigrafía. El Pop Art se caracteriza por sus colores llamativos y su estilo audaz y gráfico, que a menudo aísla un objeto o una imagen de su contexto original para contemplarlo en una nueva luz.</p>
+            </div>
+            <div class="origenes-imagen">
+                <img src="img/POP-ART.jpg" alt="Orígenes del Pop Art">
+            </div>
+        </section>
+
+        <!-- Épocas -->
+        <section class="epocas" data-aos="fade-up">
+            <h2>Épocas</h2>
+            <div class="epocas-container">
+                <div class="epoca">
+                    <a href="epoca-50.html">
+                        <div class="epoca-circulo">
+                            <img src="img/epoca-50.jpeg" alt="Años 50">
+                        </div>
+                        <h3>Años 50</h3>
+                    </a>
+                    <p>Los inicios en el Reino Unido con el Independent Group.</p>
+                </div>
+                <div class="epoca">
+                    <a href="epoca-60.html">
+                    <div class="epoca-circulo">
+                        <img src="img/epoca-60.jpeg" alt="Años 60">
+                    </div>
+                    <h3>Años 60</h3>
+                    </a>
+                    <p>La explosión del Pop Art en Estados Unidos y su consolidación.</p>
+                </div>
+                <div class="epoca">
+                    <a href="epoca-70.html">
+                    <div class="epoca-circulo">
+                        <img src="img/epoca-70.jpeg" alt="Años 70">
+                    </div>
+                    <h3>Años 70</h3>
+                    </a>
+                    <p>La expansión global y la diversificación del movimiento.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Artistas Principales -->
+        <section class="artistas" data-aos="fade-up">
+            <h2>Artistas Principales</h2>
+            <div class="artistas-tabs">
+                <button class="tab-link active" onclick="openArtist(event, 'warhol')">Andy Warhol</button>
+                <button class="tab-link" onclick="openArtist(event, 'lichtenstein')">Roy Lichtenstein</button>
+                <button class="tab-link" onclick="openArtist(event, 'hamilton')">Richard Hamilton</button>
+            </div>
+
+            <div id="warhol" class="tab-content active">
+                <div class="warhol-hero">
+                    <div class="warhol-title">
+                        <h1>Andy</h1>
+                        <h1>Warhol</h1>
+                        <div class="warhol-intro">
+                        <p>Fue un artista, cineasta y productor estadounidense, referente del Pop Art. Transformó objetos cotidianos y figuras famosas en iconos culturales mediante técnicas como la serigrafía, destacando obras como las latas de sopa Campbell’s y los retratos de Marilyn Monroe. Su estudio, “The Factory”, reunió a artistas y celebridades, convirtiéndolo en un símbolo de la unión entre arte y cultura de masas.</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="warhol-main-content">
+                    <div class="warhol-text-block">
+                        <p>Durante la década de 1960, Warhol consolidó su estilo y dio un giro definitivo hacia el arte contemporáneo. Inspirado por la sociedad de consumo y los medios masivos, eligió como temas centrales objetos cotidianos y retratos de estrellas de cine y figuras públicas, que reproducía mediante serigrafías. De este modo, cuestionaba la idea de originalidad artística y acercaba el arte a la lógica industrial y serial del mundo moderno.</p>
+                        <p>“The Factory” no solo fue un taller, sino un verdadero epicentro cultural donde se experimentaba con la música, la literatura y el cine. Warhol produjo películas experimentales como Sleep y Empire, que rompían con las convenciones tradicionales del cine, reflejando su espíritu innovador y provocador.</p>
+                        <p class="warhol-intro">A lo largo de su carrera, retrató a decenas de personalidades influyentes, desde Mick Jagger hasta líderes mundiales como Mao Zedong, expandiendo su influencia hacia la moda, la música y los medios. Además, fundó la revista Interview, que reunía entrevistas con celebridades y reflejaba su obsesión por la cultura popular y los íconos de la época.</p>
+                        <p>Andy Warhol falleció en Nueva York el 22 de febrero de 1987, a los 58 años, tras complicaciones en una cirugía.</p>
+                        <p class="warhol-intro">Su legado sigue vivo: transformó la manera de concebir el arte contemporáneo, cuestionó la relación entre obra, mercado y medios, y dejó una huella imborrable en la cultura visual moderna. Hoy, el Andy Warhol Museum en Pittsburgh y sus múltiples exposiciones alrededor del mundo continúan celebrando su visión única, recordándonos que, como él decía, “En el futuro, todos serán mundialmente famosos por 15 minutos”.</p>
+                    </div>
+                    <div class="warhol-vertical-images">
+                        <img src="img/andy-warhol.png" alt="Andy Warhol">
+                        <img src="img/andy-warhol-sleep.png" alt="Sleep">
+                    </div>
+                </div>
+                <div class="warhol-horizontal-images">
+                    <img src="img/andy-warhol-2.webp" alt="Andy Warhol">
+                    <img src="img/revista-interview.jpeg" alt="Revista Interview">
+                    <img src="img/andy-warhol-museum.webp" alt="Andy Warhol Museum en Pittsburgh">
+                </div>
+            </div>
+
+            <div id="lichtenstein" class="tab-content">
+                <div class="lichtenstein-hero">
+                    <div class="lichtenstein-title">
+                        <h1>Roy</h1>
+                        <h1>Lichtenstein</h1>
+                    </div>
+                </div>
+                <div class="lichtenstein-main-content">
+                    <div class="lichtenstein-vertical-image">
+                        <img src="img/roy-pintando.jpeg" alt="Roy Lichtenstein ">
+                    </div>
+                    <div class="lichtenstein-text-block">
+                        <p>Fue un pintor estadounidense y uno de los principales representantes del Pop Art. Se hizo famoso por sus obras inspiradas en el cómic y la publicidad, utilizando colores primarios, puntos Ben-Day y contornos marcados. Entre sus trabajos más conocidos están Whaam! y Drowning Girl. Su estilo convirtió escenas populares en arte de gran formato, cuestionando la frontera entre cultura popular y alta cultura.</p>
+                        <p class="warhol-intro">En la década de 1960, su estilo alcanzó reconocimiento internacional. Inspirado por los cómics y la publicidad, Lichtenstein comenzó a reinterpretar viñetas de historietas en gran escala, utilizando puntos Ben-Day, colores planos y líneas gruesas para crear un efecto de impresión industrial.</p>
+                    </div>
+                </div>
+               <div><p>Obras como Whaam! o Drowning Girl se convirtieron en íconos del Pop Art, mostrando escenas dramáticas con un toque de ironía y humor, y demostrando que el arte podía surgir de lo cotidiano y popular.</p></div>
+                <div class="lichtenstein-full-width-text">
+                    <p>Además, exploró la reinterpretación de obras clásicas, la escultura y los murales, manteniendo siempre su mirada crítica sobre el consumo, la publicidad y los medios de comunicación. Su técnica combinaba precisión, repetición y una lectura consciente de la cultura de masas, consolidando su posición como uno de los artistas más influyentes de su generación.</p>
+                    <p class="warhol-intro">A lo largo de su carrera, recibió numerosos premios y reconocimiento internacional. Al día de hoy, sus obras se exhiben en los principales museos y galerías del mundo, y su estilo ha inspirado a múltiples generaciones de artistas. Lichtenstein falleció en Nueva York en 1997, dejando un legado que sigue cuestionando y redefiniendo los límites entre arte, cultura popular y sociedad visual.</p>
+                </div>
+                <div class="lichtenstein-horizontal-images">
+                    <img src="img/roy.jpeg" alt="Roy Lichtenstein">
+                    <img src="img/escultura-roy.jpeg" alt="Escultura">
+                    <img src="img/roy-img.jpeg" alt="Lichtenstein Retrospective">
+                </div>
+            </div>
+
+            <div id="hamilton" class="tab-content">
+                <div class="hamilton-hero">
+                    <div class="hamilton-title">
+                        <h1>Richard</h1>
+                        <h1>Hamilton</h1>
+                    </div>
+                </div>
+                <div class="hamilton-main-content">
+                    <div class="hamilton-block">
+                        <div class="hamilton-block-image">
+                            <img src="img/hamilton.png" alt="Richard Hamilton">
+                        </div>
+                        <div class="hamilton-block-text">
+                            <h4>Padre del Pop Art</h4>
+                            <p>Fue un pintor y diseñador británico considerado uno de los padres del Pop Art, conocido por su capacidad de combinar elementos de la cultura popular, la publicidad y el diseño con el arte contemporáneo. Su obra más célebre, Just what is it that makes today’s homes so different, so appealing? (1956), es considerada una de las primeras manifestaciones del movimiento.</p>
+                        </div>
+                    </div>
+                    <div class="hamilton-block">
+                        <div class="hamilton-block-image">
+                            <img src="img/royal-academy.webp" alt="Royal Academy Schools">
+                        </div>
+                        <div class="hamilton-block-text">
+                            <h4>Formación y experimentación</h4>
+                            <p>Estudió en la Royal Academy Schools y en el Manchester School of Art, donde desarrolló una sólida formación en dibujo y pintura. Desde sus primeros años mostró un interés por integrar el arte con la vida cotidiana y la cultura visual de su época. Durante su carrera, experimentó con collages, grabados, pintura, escultura y diseño gráfico, siempre con un enfoque crítico hacia la publicidad, los medios y el consumo masivo.</p>
+                        </div>
+                    </div>
+                    <div class="hamilton-block">
+                        <div class="hamilton-block-image">
+                            <img src="img/richard-hamilton.jpeg" alt="Richard Hamilton">
+                        </div>
+                        <div class="hamilton-block-text">
+                            <h4>Exposiciones y docencia</h4>
+                            <p>Desarrolló exposiciones innovadoras y colaborando con museos y galerías internacionales.  Además de su trabajo artístico, se destacó como profesor y mentor, compartiendo su pasión por la experimentación técnica y conceptual con nuevas generaciones de artistas, e inspirando a muchos a cuestionar y reinventar la manera de crear y percibir el arte contemporáneo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" data-aos="fade-up">
+        <div class="logo">
+            <a href="index.html">POP ART</a>
+        </div>
+        <div class="footer-links">
+            <a href="#">Aviso Legal</a>
+            <a href="#">Política de Privacidad</a>
+            <a href="#">Cookies</a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>

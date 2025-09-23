@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop Art en los Años 70 - Vanguardia Artística</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Monoton&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-top">
+            <div class="logo">
+                <a href="index.html">POP ART</a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar...">
+                <button>Buscar</button>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="historia.html" class="nav-button">HISTORIA DEL POP ART</a>
+                    <div class="dropdown-content">
+                        <a href="epoca-50.html">Años 50</a>
+                        <a href="epoca-60.html">Años 60</a>
+                        <a href="epoca-70.html">Años 70</a>
+                    </div>
+                </li>
+                <li><a href="obras.html" class="nav-button">OBRAS</a></li>
+                <li><a href="repercusion.html" class="nav-button">REPERCUSIÓN</a></li>
+                <li><a href="experiencia-visual.html" class="nav-button">EXPERIENCIA VISUAL</a></li>
+                <li><a href="actualidad.html" class="nav-button">ACTUALIDAD</a></li>
+                <li><a href="contacto.html" class="nav-button">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <a href="historia.html" class="back-arrow">← Volver a Historia</a>
+        <section class="anos-60-main">
+            <div class="image-container">
+                <img src="img/epoca-70.jpeg" alt="Años 70">
+            </div>
+            <div class="text-container">
+                <h1>Años 70</h1>
+                <p>En la década de 1970, el Pop Art continuó su evolución, diversificándose y expandiéndose a nivel global. Aunque la efervescencia de los años 60 había disminuido, el movimiento dejó una marca indeleble en el mundo del arte. Artistas como David Hockney exploraron nuevas formas de representación, combinando la estética pop con un enfoque más personal e introspectivo. En esta etapa, el Pop Art también comenzó a ser absorbido por la corriente principal, influyendo en el diseño gráfico, la moda y la música. La crítica a la sociedad de consumo se mantuvo, pero con un tono a menudo más melancólico o reflexivo, marcando el inicio de la transición hacia el posmodernismo y sentando las bases para futuras generaciones de artistas que seguirían explorando la relación entre el arte y la cultura popular.</p>
+            </div>
+        </section>
+
+        <section class="balloon-gallery">
+            <div class="balloon" style="--i:1;" data-title="Mick Jagger" data-description="El retrato de Mick Jagger por Andy Warhol es un ícono de la fusión entre el arte pop y la música rock. Creado en 1975, esta serigrafía captura la energía y el carisma del líder de los Rolling Stones, consolidando su estatus como un ícono cultural de la época."><img src="img/mick-jagger.png" alt="Obra 1"></div>
+            <div class="balloon" style="--i:2;" data-title="David Hockney" data-description="David Hockney es una figura clave del Pop Art británico. Su obra de los años 70 se caracteriza por un estilo más personal y naturalista, explorando temas como la luz, el agua y las relaciones humanas, como se ve en sus famosas pinturas de piscinas de California."><img src="img/david-hockney.jpg" alt="Obra 2"></div>
+            <div class="balloon" style="--i:3;" data-title="Takashi Murakami" data-description="Aunque su obra pertenece a una generación posterior, Takashi Murakami es un heredero directo del Pop Art. Su estilo Superflat fusiona la estética del anime y el manga con la tradición artística japonesa, creando un universo visual que critica y celebra la cultura de consumo contemporánea."><img src="img/takashi-murakami.jpg" alt="Obra 3"></div>
+            <div class="balloon" style="--i:4;" data-title="Jeff Koons" data-description="Jeff Koons es uno de los artistas más influyentes y controvertidos de la escena artística contemporánea. Su obra, que a menudo utiliza objetos cotidianos y de la cultura popular, explora los temas del consumismo, la banalidad y la celebridad, llevando los principios del Pop Art a nuevas y provocadoras conclusiones."><img src="img/Jeff-Koons.avif" alt="Obra 4"></div>
+            <div class="balloon" style="--i:5;" data-title="Banksy" data-description="Banksy es el seudónimo de un misterioso artista de graffiti británico, cuya obra satírica y subversiva ha aparecido en calles, muros y puentes de todo el mundo. Su estilo, que combina el graffiti con el uso de plantillas, es un comentario mordaz sobre la política, la cultura y la moralidad contemporáneas."><img src="img/Banksy.jpg" alt="Obra 5"></div>
+        </section>
+
+        <!-- Modal Structure -->
+    <div id="gallery-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div class="modal-body">
+                <div class="modal-image-container">
+                    <img id="modal-image" src="" alt="Obra de Pop Art">
+                </div>
+                <div class="modal-text-container">
+                    <h3 id="modal-title"></h3>
+                    <p id="modal-description"></p>
+                </div>
+            </div>
+            <button class="prev-button">‹</button>
+            <button class="next-button">›</button>
+        </div>
+    </div>
+    
+    </main>
+
+    <footer class="footer" data-aos="fade-up">
+        <div class="logo">
+            <a href="index.html">POP ART</a>
+        </div>
+        <div class="footer-links">
+            <a href="#">Aviso Legal</a>
+            <a href="#">Política de Privacidad</a>
+            <a href="#">Cookies</a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
