@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop Art en los Años 50 - Vanguardia Artística</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Monoton&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-top">
+            <div class="logo">
+                <a href="index.html">POP ART</a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar...">
+                <button>Buscar</button>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="historia.html" class="nav-button">HISTORIA DEL POP ART</a>
+                    <div class="dropdown-content">
+                        <a href="epoca-50.html">Años 50</a>
+                        <a href="epoca-60.html">Años 60</a>
+                        <a href="epoca-70.html">Años 70</a>
+                    </div>
+                </li>
+                <li><a href="obras.html" class="nav-button">OBRAS</a></li>
+                <li><a href="repercusion.html" class="nav-button">REPERCUSIÓN</a></li>
+                <li><a href="experiencia-visual.html" class="nav-button">EXPERIENCIA VISUAL</a></li>
+                <li><a href="actualidad.html" class="nav-button">ACTUALIDAD</a></li>
+                <li><a href="contacto.html" class="nav-button">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <a href="historia.html" class="back-arrow">← Volver a Historia</a>
+        <section class="anos-50-main">
+            <div class="image-container">
+                <img src="img/epoca-50.jpeg" alt="Años 50">
+            </div>
+            <div class="text-container">
+                <h1>Años 50</h1>
+                <p>En la década de 1950, el Pop Art comenzó a gestarse en el Reino Unido como una respuesta crítica y a la vez fascinada por la creciente cultura de consumo de la posguerra. Artistas como Richard Hamilton y Eduardo Paolozzi, miembros del Independent Group, exploraron la iconografía de la publicidad, el cine y la tecnología, sentando las bases para un movimiento que revolucionaría el mundo del arte. Sus collages y obras tempranas desafiaron la solemnidad del arte abstracto y abrieron la puerta a una nueva forma de expresión que celebraba y cuestionaba lo cotidiano.</p>
+            </div>
+        </section>
+
+        <section class="balloon-gallery">
+            <div class="balloon" style="--i:1;" data-title="I Was a Rich Man's Plaything" data-description="Este collage de Eduardo Paolozzi es una de las obras seminales del Pop Art británico. Combina imágenes de la cultura de consumo estadounidense para reflexionar sobre la abundancia y el materialismo de la posguerra."><img src="img/i-was-a-rich.jpg" alt="Obra 1"></div>
+            <div class="balloon" style="--i:2;" data-title="Just what is it that makes today's homes so different, so appealing?" data-description="Este collage de Richard Hamilton es considerado una de las primeras obras del Pop Art. Es una crítica irónica de la sociedad de consumo de la posguerra, llena de imágenes tomadas de revistas y anuncios."><img src="img/just-what-is-it-that-makes-todays-homes-so-different-richard-hamilton.jpg" alt="Obra 2"></div>
+            <div class="balloon" style="--i:3;" data-title="Richard Hamilton" data-description="Richard Hamilton fue un pintor y artista de collage británico. Su collage de 1956, Just what is it that makes today's homes so different, so appealing?, es considerado por algunos historiadores como la primera obra de Pop Art."><img src="img/hamilton2.jpg" alt="Obra 3"></div>
+            <div class="balloon" style="--i:4;" data-title="Swingeing London 67" data-description="Richard Hamilton crea esta obra a partir de un recorte de periódico que muestra a Mick Jagger y al galerista Robert Fraser esposados. Es una crítica a la persecución de las figuras de la contracultura por parte del establishment."><img src="img/swingeing-london-67.jpg" alt="Obra 4"></div>
+            <div class="balloon" style="--i:5;" data-title="Hamilton" data-description="Hamilton fue uno de los primeros artistas en explorar las implicaciones de la cultura visual de masas y la tecnología en el arte."><img src="img/hamilton.jpg" alt="Obra 5"></div>
+        </section>
+    
+    </main>
+
+    <footer class="footer" data-aos="fade-up">
+        <div class="logo">
+            <a href="index.html">POP ART</a>
+        </div>
+        <div class="footer-links">
+            <a href="#">Aviso Legal</a>
+            <a href="#">Política de Privacidad</a>
+            <a href="#">Cookies</a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
