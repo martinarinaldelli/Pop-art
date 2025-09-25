@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop Art en los Años 60 - Vanguardia Artística</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Monoton&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-top">
+            <div class="logo">
+                <a href="index.html">POP ART</a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar...">
+                <button>Buscar</button>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="historia.html" class="nav-button">HISTORIA DEL POP ART</a>
+                    <div class="dropdown-content">
+                        <a href="epoca-50.html">Años 50</a>
+                        <a href="epoca-60.html">Años 60</a>
+                        <a href="epoca-70.html">Años 70</a>
+                    </div>
+                </li>
+                <li><a href="obras.html" class="nav-button">OBRAS</a></li>
+                <li><a href="repercusion.html" class="nav-button">REPERCUSIÓN</a></li>
+                <li><a href="experiencia-visual.html" class="nav-button">EXPERIENCIA VISUAL</a></li>
+                <li><a href="actualidad.html" class="nav-button">ACTUALIDAD</a></li>
+                <li><a href="contacto.html" class="nav-button">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <a href="historia.html" class="back-arrow">← Volver a Historia</a>
+        <section class="anos-60-main">
+            <div class="image-container">
+                <img src="img/epoca-60.jpeg" alt="Años 60">
+            </div>
+            <div class="text-container">
+                <h1>Años 60</h1>
+                <p>La década de 1960 fue testigo de la explosión del Pop Art en Estados Unidos, consolidándose como un movimiento artístico de gran influencia. Artistas como Andy Warhol y Roy Lichtenstein se convirtieron en figuras centrales, llevando la cultura popular al lienzo de una manera nunca antes vista. Warhol, con sus serigrafías de latas de sopa Campbell y retratos de celebridades como Marilyn Monroe, exploró la producción en masa y la fama. Lichtenstein, por su parte, se apropió del lenguaje del cómic, utilizando puntos Ben-Day y contornos gruesos para crear obras icónicas como "Whaam!" y "Drowning Girl". El Pop Art de los 60 no solo reflejó la opulencia y el optimismo de la época, sino que también introdujo una crítica sutil a la sociedad de consumo y la superficialidad de la cultura mediática.</p>
+            </div>
+        </section>
+
+        <section class="balloon-gallery">
+            <div class="balloon" style="--i:1;" data-title="Latas de Sopa Campbell" data-description="La serie de serigrafías de Andy Warhol que representa las latas de sopa Campbell es una de las obras más emblemáticas del Pop Art. Desafió las nociones tradicionales de arte al elevar un objeto cotidiano y producido en masa al estatus de obra de arte."><img src="img/latas.png" alt="Obra 1"></div>
+            <div class="balloon" style="--i:2;" data-title="Marilyn Monroe" data-description="El díptico de Marilyn Monroe de Andy Warhol es una meditación sobre la fama y la muerte. La repetición de la imagen de la actriz, con variaciones de color y desvanecimiento, sugiere la omnipresencia de su imagen en los medios y su eventual desaparición."><img src="img/marilyn-monroe.png" alt="Obra 2"></div>
+            <div class="balloon" style="--i:3;" data-title="Whaam!" data-description="Esta obra de Roy Lichtenstein se inspira directamente en un cómic de guerra. El uso de puntos Ben-Day y los contornos negros gruesos son característicos de su estilo, que imita la estética de la impresión comercial."><img src="img/whaam.png" alt="Obra 3"></div>
+            <div class="balloon" style="--i:4;" data-title="Drowning Girl" data-description="Otra obra icónica de Lichtenstein, 'Drowning Girl' se apropia de un panel de cómic romántico para crear una imagen de gran impacto emocional. La obra juega con los estereotipos del melodrama y la representación de la mujer en la cultura popular."><img src="img/drowning-girl.png" alt="Obra 4"></div>
+            <div class="balloon" style="--i:5;" data-title="Crying Girl" data-description="La obra de Roy Lichtenstein, 'Crying Girl', es una de sus exploraciones más famosas del melodrama y la angustia femenina, utilizando su estilo de cómic característico para crear una imagen cargada de emoción."><img src="img/crying-girl.png" alt="Obra 5"></div>
+        </section>
+    
+    </main>
+
+    <footer class="footer" data-aos="fade-up">
+        <div class="logo">
+            <a href="index.html">POP ART</a>
+        </div>
+        <div class="footer-links">
+            <a href="#">Aviso Legal</a>
+            <a href="#">Política de Privacidad</a>
+            <a href="#">Cookies</a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obras de Pop Art - Vanguardia Artística</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Monoton&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-top">
+            <div class="logo">
+                <a href="index.html">POP ART</a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar...">
+                <button>Buscar</button>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="historia.html" class="nav-button">HISTORIA DEL POP ART</a>
+                    <div class="dropdown-content">
+                        <a href="epoca-50.html">Años 50</a>
+                        <a href="epoca-60.html">Años 60</a>
+                        <a href="epoca-70.html">Años 70</a>
+                    </div>
+                </li>
+                <li><a href="obras.html" class="nav-button">OBRAS</a></li>
+                <li><a href="repercusion.html" class="nav-button">REPERCUSIÓN</a></li>
+                <li><a href="experiencia-visual.html" class="nav-button">EXPERIENCIA VISUAL</a></li>
+                <li><a href="actualidad.html" class="nav-button">ACTUALIDAD</a></li>
+                <li><a href="contacto.html" class="nav-button">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Asymmetric Gallery -->
+        <section class="asymmetric-gallery">
+            <div class="gallery-item item1" data-title="Mick Jagger" data-description="Esta obra de Andy Warhol captura la esencia del líder de los Rolling Stones, utilizando colores vibrantes y un estilo inconfundible que fusiona el arte con la cultura de las celebridades."><img src="img/mick-jagger.png" alt="Obra 1"></div>
+            <div class="gallery-item item2" data-title="Marilyn Diptych" data-description="El díptico de Marilyn Monroe de Andy Warhol es una meditación sobre la fama y la muerte. La repetición de la imagen de la actriz, con variaciones de color y desvanecimiento, sugiere la omnipresencia de su imagen en los medios y su eventual desaparición."><img src="img/visitor-marilyn.jpg" alt="Obra 2"></div>
+            <div class="gallery-item item3" data-title="Mickey Mouse" data-description="Andy Warhol reinterpreta al icónico personaje de Disney, Mickey Mouse, elevándolo de un simple dibujo animado a un objeto de arte. La obra juega con la idea de la fama y la comercialización de la cultura popular."><img src="img/look-mickey .png" alt="Obra 3"></div>
+            <div class="gallery-item item4" data-title="I Was a Rich Man's Plaything" data-description="Este collage de Eduardo Paolozzi es una de las obras seminales del Pop Art británico. Combina imágenes de la cultura de consumo estadounidense para reflexionar sobre la abundancia y el materialismo de la posguerra."><img src="img/i-was-a-rich.webp" alt="Obra 4"></div>
+            <div class="gallery-item item5" data-title="Swingeing London 67" data-description="Richard Hamilton crea esta obra a partir de un recorte de periódico que muestra a Mick Jagger y al galerista Robert Fraser esposados. Es una crítica a la persecución de las figuras de la contracultura por parte del establishment."><img src="img/swingeing-london-67.png" alt="Obra 5"></div>
+            <div class="gallery-item item6" data-title="My Marilyn" data-description="La obra My Marilyn de Richard Hamilton, creada en 1965 y publicada en 1966, es una pieza emblemática del Pop Art británico. Utiliza pruebas fotográficas de Marilyn Monroe en las que ella misma había marcado con cruces las imágenes que no aprobaba, transformando esos gestos en parte esencial de la composición artística."><img src="img/my-marilyn.png" alt="Obra 6"></div>
+            <div class="gallery-item item7" data-title="Just What Is It That Makes Today's Homes So Different, So Appealing? (1956)" data-description="Considerado el primer trabajo de arte pop, este collage de Richard Hamilton es una crítica irónica a la sociedad de consumo de la posguerra, lleno de imágenes tomadas de revistas y anuncios."><img src="img/just-what-is-1956.png" alt="Obra 7"></div>
+        </section>
+
+        <!-- Rectangular Modal Structure (for obras.html) -->
+    <div id="rectangular-gallery-modal" class="rectangular-modal">
+        <div class="rectangular-modal-content">
+            <span class="close-button">&times;</span>
+            <div class="rectangular-modal-body">
+                <div class="rectangular-modal-image-container">
+                    <img id="rectangular-modal-image" src="" alt="Obra de Pop Art">
+                </div>
+                <div class="rectangular-modal-text-container">
+                    <h3 id="rectangular-modal-title"></h3>
+                    <p id="rectangular-modal-description"></p>
+                </div>
+            </div>
+            <button class="prev-button">‹</button>
+            <button class="next-button">›</button>
+        </div>
+    </div>
+
+        <!-- Image Left, Text Right Section -->
+        <section class="image-text-section">
+            <div class="row" data-aos="fade-right" id="latas-campbell">
+                <div class="image-container">
+                    <img src="img/latas.png" alt="Obra A">
+                </div>
+                <div class="text-container">
+                    <h3>Latas de Sopa Campbell</h3>
+                    <p>La serie de serigrafías de Andy Warhol que representa las latas de sopa Campbell es una de las obras más emblemáticas del Pop Art. Desafió las nociones tradicionales de arte al elevar un objeto cotidiano y producido en masa al estatus de obra de arte.</p>
+                </div>
+            </div>
+            <div class="row" data-aos="fade-right" id="whaam">
+                <div class="image-container">
+                    <img src="img/whaam.png" alt="Obra B">
+                </div>
+                <div class="text-container">
+                    <h3>Whaam!</h3>
+                    <p>Esta obra de Roy Lichtenstein se inspira directamente en un cómic de guerra. El uso de puntos Ben-Day y los contornos negros gruesos son característicos de su estilo, que imita la estética de la impresión comercial.</p>
+                </div>
+            </div>
+            <div class="row" data-aos="fade-right" id="crying-girl">
+                <div class="image-container">
+                    <img src="img/crying-girl.png" alt="Obra G">
+                </div>
+                <div class="text-container">
+                    <h3>Crying Girl</h3>
+                    <p>La obra de Roy Lichtenstein, "Crying Girl", es una de sus exploraciones más famosas del melodrama y la angustia femenina, utilizando su estilo de cómic característico para crear una imagen cargada de emoción.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Text Left, Image Right Section -->
+        <section class="text-image-section">
+            <div class="row" data-aos="fade-left" id="just-what-is-it">
+                <div class="text-container">
+                    <h3>Just what is it that makes today's homes so different, so appealing?</h3>
+                    <p>Este collage de Richard Hamilton, es una  reinterpretación del collage original de 1956, actualizando la escena doméstica con referencias a la cultura tecnológica, mediática y social de finales del siglo XX. Es considerada una de las primeras manifestaciones del Pop Art, que hace una crítica irónica a la sociedad de consumo.</p>
+                </div>
+                <div class="image-container">
+                    <img src="img/just-what-is-it-that-makes-todays-homes-so-different-richard-hamilton.png" alt="Obra D">
+                </div>
+            </div>
+            <div class="row" data-aos="fade-left" id="drowning-girl">
+                <div class="text-container">
+                    <h3>Drowning Girl</h3>
+                    <p>Otra obra icónica de Lichtenstein, "Drowning Girl" se apropia de un panel de cómic romántico para crear una imagen de gran impacto emocional. La obra juega con los estereotipos del melodrama y la representación de la mujer en la cultura popular.</p>
+                </div>
+                <div class="image-container">
+                    <img src="img/drowning-girl.png" alt="Obra E">
+                </div>
+            </div>
+            <div class="row" data-aos="fade-left" id="pop-shop">
+                <div class="text-container">
+                    <h3>Pop Shop III</h3>
+                    <p>El Pop Shop III es uno de los murales creados por Keith Haring en 1989. Forma parte de una serie de obras que Haring desarrolló en sus Pop Shops, espacios que él mismo abrió en Nueva York y luego en Tokio, donde vendía objetos, posters, remeras y obras a precios accesibles. </p>
+                </div>
+                <div class="image-container">
+                    <img src="img/pop-shop-iii.jpeg" alt="Obra F">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" data-aos="fade-up">
+        <div class="logo">
+            <a href="index.html">POP ART</a>
+        </div>
+        <div class="footer-links">
+            <a href="#">Aviso Legal</a>
+            <a href="#">Política de Privacidad</a>
+            <a href="#">Cookies</a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+</body>
+</html>
